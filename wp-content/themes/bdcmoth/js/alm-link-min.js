@@ -1,0 +1,1 @@
+jQuery(function($){var a=!1;$(".alm-filter-nav li").eq(0).addClass("active"),$(".alm-filter-nav li a").on("click",function(e){e.preventDefault();var i=$(this);if(!i.hasClass("active")&&!a){a=!0,i.parent().addClass("active").siblings("li").removeClass("active");var l=i.data(),t="fade",n="300";$.fn.almFilter("fade","300",l)}}),$.fn.almFilterComplete=function(){a=!1}});

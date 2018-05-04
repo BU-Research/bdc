@@ -1,0 +1,1 @@
+jQuery(function($){$(".bdc-slider").slick({dots:!1,infinite:!0,autoplay:!0,slidesToShow:1,speed:600,autoplaySpeed:6e3})});
